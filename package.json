@@ -4,10 +4,10 @@
   "description": "Backend project for devsguide.com portal",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./config/server.js",
+    "lint": "eslint ./api/**",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run lint && npm run build && node dist/config/server.js"
+    "build": "npm run lint && rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/api/config/server.js"
   },
   "repository": {
     "type": "git",
