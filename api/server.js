@@ -1,6 +1,6 @@
 import restify from 'restify';
 
-import routes from './routes';
+import routes from './config/routes';
 
 const server = restify.createServer();
 
