@@ -1,4 +1,4 @@
-FROM docker:latest
+FROM node:8
 
 WORKDIR /usr/src/devsguide
 
