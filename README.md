@@ -5,7 +5,7 @@ Backend project for jpreis.me portal
 * You can run it in docker:
 ```
 docker build -t jpreis-be .
-docker run 8080:8080 devsguide
+docker run -p 8080:8080 jpreis-be
 ```
 
 * Or you can use npm
