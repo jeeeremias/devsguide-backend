@@ -1,4 +1,4 @@
-# devsguide-backend
+# jpreis-be
 Backend project for jpreis.me portal
 
 ## Start
