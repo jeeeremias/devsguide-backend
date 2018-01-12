@@ -1,11 +1,11 @@
-# devsguide-backend
-Backend project for devsguide.com portal
+# jpreis-be
+Backend project for jpreis.me portal
 
 ## Start
 * You can run it in docker:
 ```
-docker build -t devsguide .
-docker run 8080:8080 devsguide
+docker build -t jpreis-be .
+docker run -p 8080:8080 jpreis-be
 ```
 
 * Or you can use npm
