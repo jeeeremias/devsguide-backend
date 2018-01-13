@@ -1,7 +1,7 @@
 {
-    "name": "jpreis-be",
+    "name": "jeremiasblog-be",
     "version": "1.0.0",
-    "description": "Backend project for jpreis.me portal",
+    "description": "Backend project for jeremias' persnal portal",
     "main": "index.js",
     "scripts": {
         "lint": "eslint ./api/**",
@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/jeeeremias/jpreis-be.git"
+        "url": "git+ssh://git@github.com/jeeeremias/jeremiasblog-be.git"
     },
     "author": "Jeremias Pereira",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/jeeeremias/jpreis-be/issues"
+        "url": "https://github.com/jeeeremias/jeremiasblog-be/issues"
     },
-    "homepage": "https://github.com/jeeeremias/jpreis-be#readme",
+    "homepage": "https://github.com/jeeeremias/jeremiasblog-be#readme",
     "devDependencies": {
         "babel-cli": "^6.24.1",
         "babel-preset-es2015": "^6.24.1",
