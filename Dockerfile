@@ -1,6 +1,5 @@
 FROM ubuntu:xenial
 
-
 RUN apt-get update
 RUN apt-get install -y \
 curl \
@@ -19,7 +18,7 @@ RUN echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mon
 RUN apt-get update
 RUN apt-get install -y mongodb-org
 
-WORKDIR /usr/src/jpreis-be
+WORKDIR /usr/src/jeremiasblog-be
 
 COPY package.json package-lock.json ./
 
